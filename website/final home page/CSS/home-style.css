@@ -1,0 +1,201 @@
+/*div {
+	margin:0 !important; 
+	padding:0 !important;
+}*/
+#header-div{
+	border-radius: 0px;
+}
+span#contact{
+	float: right;
+	position: relative;
+    font-size: x-large;
+    margin-right: 50px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+span#email{
+	float: right;
+	position: relative;
+    font-size: x-large;
+    margin-right: -184px;
+    padding-top: 60px;
+    overflow: hidden;
+}
+#ctitle{
+	font-size: xx-large !important;
+}
+.main-container-div{
+	/*background-color: #333333;
+    color: white;*/
+    font-family: sans-serif;
+}
+
+li{
+	font-weight: 600;
+	color: shnowwhite;
+}
+.al-center{
+	padding-left: 10% !important;
+}
+body{
+	margin: 0;
+	overflow-y: auto;	
+	overflow-x: hidden;
+	-webkit-overflow-scrolling:touch;
+}
+#fixed{
+	z-index: 9999; 
+	position: fixed;
+	left: 0; 
+	top: 0; 
+	width: 100%;
+	border-radius: 0px;
+}
+}
+nav li a {
+	color: #757575;
+	text-transform: uppercase;
+	font-family: 'Crimson Text', serif;
+}
+.nav-placeholder{
+	margin: 0 0 40px 0;
+}
+.page-header img {
+  float: center;
+  width: 125px;
+  height: 125px;
+  margin-left: 225px;
+  background: #e4e4e4;
+}
+#page-header{
+	text-align: center;
+	background-color: #e4e4e4;
+	padding-top: 1%;
+}
+.head-div{
+	margin-top: -2%;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 500px;
+}
+.img-container{
+	margin-top: -2%;
+}
+.carousel-In-Container{
+	/*height: 500px;*/
+}
+}
+div{
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Notification*/
+a#visit {
+	  width: 50px;
+	  z-index: 10000;
+	  display: block;
+	  position: fixed;
+	  right: 0px;
+	  top: 60px;
+	  height: 60px;
+	  color: #fff;
+	  font-size: 1.5em;
+	  text-transform: uppercase;
+	  font-style: normal;
+	  line-height: 70px;
+	  text-indent: -180px;
+	  background: rgba(51, 122, 183, 0.82);
+	  overflow: hidden;
+	  border-top-left-radius: 50px;
+	  border-bottom-left-radius: 50px;
+	  transition: all;
+	  transition-duration: 0.3s;
+}
+
+a#visit i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  padding-left: 30px;
+}
+
+a#visit:hover{
+  right: 0px;
+  width: 250px;
+  height: 250px;
+  padding-left: 82px;
+  padding-right: 10px;
+  text-indent: 0px;
+}
+a span{
+	float: left;
+    margin-left: -50px;
+    margin-top: -30px;
+}
+.fa-col{
+	color: #404041;
+}
+
+strong#contact {
+	margin-left: -30px;
+    float: left;
+    overflow: hidden;
+}
+strong#contact i{
+	position: absolute !important;
+    top: 95px !important;
+    left: -4px !important;
+    z-index: -1 !important;
+    padding-left: 29px !important;
+}
+strong#email{
+	font-weight: 500;
+    margin-left: -37px;
+    overflow: hidden;
+}
+strong#email i{
+	position: absolute !important;
+    top: 164px !important;
+    left: -4px !important;
+    z-index: -1 !important;
+    padding-left: 29px !important;
+}
+
+.page-header img:hover,
+.page-header img:active {
+	border-color: cornflowerblue !important;
+	border: solid 2px;
+	border-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.70);
+    transition: 0.3s;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.70);
+}
+
+/*responsive*/
+@media only screen and (max-width: 500px) {
+    span#contact,
+    span#email{
+    	display: none;
+    }
+    .page-header img{
+    margin-left: 0px;
+    width: 75px;
+  	height: 75px;
+    }
+    #ctitle{
+	font-size: 15px !important;
+	}
+	#header-div{
+		z-index: 9999;
+	}
+}
