@@ -3779,3 +3779,659 @@
 
 /*contact us end*/
 
+
+
+
+
+
+/*career page begins*/
+							.div-content-head{
+								transition: all 0.5s ease;
+							}
+							.div-content-head:hover{
+								
+							    font-size: 24px;
+							    background-color: #001f3f !important;
+							    color: white;
+							    transition: all 0.5s ease;
+							    
+							}
+							.thumbnail{
+								border-radius: 25px !important;
+							     
+
+							}
+							.center-height{
+								height: 40px;
+							}
+							.p::-webkit-scrollbar {
+							    width: 1em;
+							}
+							 
+							.p::-webkit-scrollbar-track {
+							    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+							}
+							 
+							.p::-webkit-scrollbar-thumb {
+							  background-color: white !important;
+							  outline: 1px solid slategrey;
+							}
+
+							.p-overflow{
+								height: 300px !important;
+								overflow: auto !important;
+							}
+
+							.img-size{
+								height: 140px;
+								width: 420px;
+								border-radius: 25px;
+							}
+							.div-header-style{
+								margin-top: 20px;
+								
+								color: white;
+							    background-image: url("../img/background/1s.jpg");
+								height: 130px;
+								border: transparent 1px black;
+								
+							}
+							.div-header{
+								font-size: 50px;
+								
+								padding-left: 70px;
+								position: relative;
+								top: 15px;
+							}
+							.div-header1{
+								
+								font-size:30px;
+								
+								padding-left: 100px;
+							}
+							.div-introduction{
+								margin-top: 20px;
+								border:transparent 1px;
+								border-radius: 25px; 
+							    
+								background-image:  url("../img/background/3s.jpg");
+								/*background-color:rgb(242, 242, 242);*/
+								/*height: 175px;*/
+								letter-spacing: 1px;
+
+							}
+							.div-introduction1{
+								font-family: 'Lato',sans-serif !important;
+								font-size: 18px;
+								color: white !important;
+							}
+
+							.div-pad{
+								padding: 27px !important;
+							}
+
+							.div-content{
+
+								border-style: ridge;
+								border-radius: 25px; 
+								height: 465px;
+								background-color: #001f3f !important;
+									
+							}
+							.div-content-head{
+								font-size: 22px ;
+								font-weight: bold;
+								background-color: #001f3f !important;
+								color:white !important;
+							}
+							.button1{
+								background-color: rgb(0, 102, 204);
+								font-size: 20px;
+								color: white;
+								border-radius: 25px;
+								position: relative;
+								left: 5px;
+								top: 20px;
+
+							}
+							.button2{
+								background-color: rgb(0, 102, 204);
+								font-size: 20px;
+								color: white;
+								border-radius: 25px;
+								position: relative;
+								left: 5px;
+								top: 20px;
+
+							}
+							.button3{
+								background-color: rgb(0, 102, 204);
+								font-size: 20px;
+								color: white;
+								border-radius: 25px;
+								position: relative;
+								left: 5px;
+								top: 20px;
+
+							}
+							.button4{
+								background-color: rgb(0, 102, 204);
+								font-size: 20px;
+								color: white;
+								border-radius: 25px;
+								position: relative;
+								left: 5px;
+								top: 20px;
+
+							}
+							.grow{
+								transition: all 0.9s ease ;
+							}
+							.grow:hover
+							{
+							  -webkit-transform: scale(2.2);
+							  -ms-transform: scale();
+							   transform: scale(1.1);
+							  transition: all 0.9s ease;
+
+							  
+							}
+							.paragraph{
+								letter-spacing: 1px;
+								 font-family: 'Lato',sans-serif !important;
+								 text-transform: capitalize !important; 
+								 color: #333 !important;
+								 font-weight: 300 !important;
+							    font-size: 14px !important;
+							}
+
+							.body-color{
+								background: #001f3f;
+							}
+							.div-padding{
+								margin-top: 40px !important;
+							}
+							.div-padding-b{
+								margin-bottom: 40px!important;
+							}
+							input{
+								border: none !important;
+							    border-bottom: 2px solid #006699 !important;
+							    background-color:#001f3f !important;
+							    color:white !important;
+							}
+							input:hover{
+								width:374px !important;
+								height:44px !important;
+								background-color:#001f3f !important;
+							    font-size: 17px;
+							    border: 2px solid #4CAF50 !important; /* Green */
+							   ;
+							   
+
+							}
+							.cool input{
+								transition: all 0.5s ease !important;
+							}
+							input[name=amit1]{
+								width: 100% !important;
+							}
+							input[name=amit1]:focus{
+								width:90% !important;
+							}
+							input[name=amit]{
+								width: 100% !important;
+							}
+							input[name=amit]:focus{
+								width:90% !important;
+							}
+
+							.btt1 span {
+							  cursor: pointer;
+							  display: inline-block;
+							  position: relative;
+							  transition: 0.5s;
+							}
+
+							.btt1 span:after {
+							  content: '\00bb';
+							  position: absolute;
+							  opacity: 0;
+							  top: 0;
+							  right: -20px;
+							  transition: 0.5s;
+							}
+
+							.btt1:hover span {
+							  padding-right: 25px;
+							}
+
+							.btt1:hover span:after {
+							  opacity: 1;
+							  right: 0;
+							}
+
+							.button {
+							  display: inline-block;
+							  border-radius: 20px !important;
+							  
+							  border: none !important;
+							  
+							  text-align: center;
+							  font-size: 20px !important;
+							  padding: 10px !important;
+							  width: 40%;
+							  transition: all 0.5s;
+							  cursor: pointer;
+							  margin-left:  20px !important;
+							  border-bottom: 2px solid #006699 !important;
+							  background: #001f3f !important;
+							   color:white !important;
+							}
+							.button span {
+							  cursor: pointer;
+							  display: inline-block;
+							  position: relative;
+							  transition: 0.5s;
+							}
+
+							.button span:after {
+							  content: '\00bb';
+							  position: absolute;
+							  opacity: 0;
+							  top: 0;
+							  right: -20px;
+							  transition: 0.5s;
+							}
+
+							.button:hover span {
+							  padding-right: 25px;
+							}
+
+							.button:hover span:after {
+							  opacity: 1;
+							  right: 0;
+							}
+
+
+							.main{
+							border-radius: 30px 30px 10px 10px !important;
+							}
+							.main-2{
+							border-radius: 10px 10px 30px 30px !important;
+							}
+
+
+
+
+
+
+	/*career media-queries page begins*/
+
+							@media only screen   and (max-device-width : 640px) {
+								.div-content-head {
+							    font-size: 22px;
+							    }
+							    .p-height11{
+							    	margin-top: 22px;
+							    }
+							.div-content-head:hover{
+								
+							    font-size: 20px;
+							    background-color: #001f3f !important;
+							    color: white;
+							    
+							}
+							.div-header1{
+								padding-left: 85px !important;
+							}
+							}
+							@media only screen   and (max-device-width : 568px) {
+								.div-content-head {
+							    font-size: 18.8px;
+							    width: 10px !important;
+							    }
+							.div-content-head:hover{
+								
+							    font-size: 20px;
+							    background-color: #001f3f !important;
+							    color: white;
+							    
+							}
+							.div-header1{
+								padding-left: 67px;
+							}
+
+							}
+
+
+							/* Smartphones (portrait and landscape) ----------- */
+
+							@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+								.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* Smartphones (landscape) ----------- */
+							@media only screen and (min-width : 321px) {
+								
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* Smartphones (portrait) ----------- */
+							@media only screen and (max-width : 320px) {
+								.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* iPads (portrait and landscape) ----------- */
+							@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+							.div-space{
+								margin-top: 20px;
+							}	
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* iPads (landscape) ----------- */
+							@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+								
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* iPads (portrait) ----------- */
+							@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+								
+
+
+							.button {
+							  
+							  width: 44%;
+							  
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							}
+							/**********
+							iPad 3
+							**********/
+							@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+							/* Desktops and laptops ----------- */
+							@media only screen  and (min-width : 1224px) {
+							/* Styles */
+							}
+
+							/* Large screens ----------- */
+							@media only screen  and (min-width : 1824px) {
+							/* Styles */
+							}
+
+							/* iPhone 4 ----------- */
+							@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* iPhone 5 ----------- */
+							@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* iPhone 6 ----------- */
+							@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+							.div-space{
+								margin-top: 20px;
+							}
+							.paragraph {
+							    letter-spacing: 1px;
+							    
+							}
+
+
+
+
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+
+
+							input[name=amit1]{
+								width: 100% !important;
+							}
+							input[name=amit1]:focus{
+								width:90% !important;
+							}
+							input[name=amit]{
+								width: 100% !important;
+							}
+							input[name=amit]:focus{
+								width:90% !important;
+							}
+							}
+
+							/* iPhone 6+ ----------- */
+							@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* Samsung Galaxy S3 ----------- */
+							@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* Samsung Galaxy S4 ----------- */
+							@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							/* Samsung Galaxy S5 ----------- */
+							@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+							@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+							.div-space{
+								margin-top: 20px;
+							}
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+
+
+							@media only screen and (max-width: 767px) and (orientation: portrait) {
+							 .div-space{
+								margin-top: 20px;
+							}  
+							#div-margin{
+								margin-top: -16px;
+							}
+							.modal-content{
+								background-color: #001f3f !important;
+							}
+							}
+
+
+	/*career media-queries page end*/
+
+
+
+
+	/*career page end*/
