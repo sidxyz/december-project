@@ -76,7 +76,7 @@ max-height: 72;
 
 .parallax {
     /* The image used */
-    background-image: url("../images/background/images.jpg");
+    background-image: url("../img/background/images.jpg");
 
     /* Set a specific height */
     min-height: 500px; 
