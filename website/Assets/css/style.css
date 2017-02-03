@@ -51,7 +51,7 @@
 					width: 100%;
 					border-radius: 0px;
 				}
-				
+				}
 				nav li a {
 					color: #757575;
 					text-transform: uppercase;
@@ -85,7 +85,7 @@
 				.carousel-In-Container{
 					/*height: 500px;*/
 				}
-				
+				}
 				div{
 					margin-left: auto;
 					margin-right: auto;
@@ -442,7 +442,7 @@
 				/*contact us animated begin*/
 
 				@charset "UTF-8";
-                  {
+
 				.animated {
 				  -webkit-animation-duration: 1s;
 				  animation-duration: 1s;
@@ -466,8 +466,7 @@
 				.animated.bounceOut {
 				  -webkit-animation-duration: .75s;
 				  animation-duration: .75s;
-				}y
-				
+				}
 
 				@-webkit-keyframes bounce {
 				  from, 20%, 53%, 80%, to {
@@ -4333,7 +4332,7 @@
 								margin-top: 20px;
 							}
 							#div-margin{
-							b	margin-top: -16px;
+								margin-top: -16px;
 							}
 							.modal-content{
 								background-color: #001f3f !important;
@@ -4432,9 +4431,7 @@
 
 	/*career media-queries page end*/
 
-body{
-	background-color: black;
-}
+
 
 
 	/*career page end*/
